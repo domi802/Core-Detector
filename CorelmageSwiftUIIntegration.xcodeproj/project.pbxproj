@@ -11,6 +11,10 @@
 		B44E01832809B59C00DAF7AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E01822809B59C00DAF7AD /* ContentView.swift */; };
 		B44E01852809B59E00DAF7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44E01842809B59E00DAF7AD /* Assets.xcassets */; };
 		B44E01882809B59E00DAF7AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B44E01872809B59E00DAF7AD /* Preview Assets.xcassets */; };
+		B44E018F2809BB1500DAF7AD /* ImageDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E018E2809BB1500DAF7AD /* ImageDetectionViewModel.swift */; };
+		B44E01912809BC8900DAF7AD /* ImageDetectiomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E01902809BC8900DAF7AD /* ImageDetectiomManager.swift */; };
+		B44E01932809BE7F00DAF7AD /* Resnet50.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B44E01922809BE7F00DAF7AD /* Resnet50.mlpackage */; };
+		B44E0195280AE0C100DAF7AD /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44E0194280AE0C100DAF7AD /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B44E01822809B59C00DAF7AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B44E01842809B59E00DAF7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B44E01872809B59E00DAF7AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B44E018E2809BB1500DAF7AD /* ImageDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectionViewModel.swift; sourceTree = "<group>"; };
+		B44E01902809BC8900DAF7AD /* ImageDetectiomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetectiomManager.swift; sourceTree = "<group>"; };
+		B44E01922809BE7F00DAF7AD /* Resnet50.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = Resnet50.mlpackage; sourceTree = "<group>"; };
+		B44E0194280AE0C100DAF7AD /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				B44E01802809B59C00DAF7AD /* CorelmageSwiftUIIntegrationApp.swift */,
 				B44E01822809B59C00DAF7AD /* ContentView.swift */,
+				B44E01922809BE7F00DAF7AD /* Resnet50.mlpackage */,
 				B44E01842809B59E00DAF7AD /* Assets.xcassets */,
 				B44E01862809B59E00DAF7AD /* Preview Content */,
+				B44E018E2809BB1500DAF7AD /* ImageDetectionViewModel.swift */,
+				B44E01902809BC8900DAF7AD /* ImageDetectiomManager.swift */,
+				B44E0194280AE0C100DAF7AD /* UIImage+Extensions.swift */,
 			);
 			path = CorelmageSwiftUIIntegration;
 			sourceTree = "<group>";
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B44E01832809B59C00DAF7AD /* ContentView.swift in Sources */,
+				B44E01932809BE7F00DAF7AD /* Resnet50.mlpackage in Sources */,
 				B44E01812809B59C00DAF7AD /* CorelmageSwiftUIIntegrationApp.swift in Sources */,
+				B44E0195280AE0C100DAF7AD /* UIImage+Extensions.swift in Sources */,
+				B44E01912809BC8900DAF7AD /* ImageDetectiomManager.swift in Sources */,
+				B44E018F2809BB1500DAF7AD /* ImageDetectionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
